@@ -1,0 +1,26 @@
+{
+  "name": "chat-example-ejs",
+  "version": "1.0.0",
+  "description": "build chat-box with nodejs-ejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helaquiz/node-chat-example-ejs.git"
+  },
+  "author": "Helaquiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helaquiz/node-chat-example-ejs/issues"
+  },
+  "homepage": "https://github.com/helaquiz/node-chat-example-ejs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "ejs": "^2.5.7",
+    "express": "^4.16.3"
+  }
+}
